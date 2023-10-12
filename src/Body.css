@@ -1,0 +1,45 @@
+.Body {
+	top: 70px;
+	height: 90%;
+	width: 100%;
+	position: absolute;
+}
+
+.Navigators {
+	position: absolute;	
+	top: 0%;
+	height: 180px;
+	left: 0%;
+	width: 60px;
+	left: 10px;
+	/* width: 200px; */
+	flex-direction: column;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+}
+
+.homeRouter, .exploreRouter, .libraryRouter {
+	flex: 1;
+	background: transparent;
+	position: relative; /* Added to make sure the pseudo-element is relative to this element */
+	/* margin-left: 10px;
+	margin-right: 10px; */
+	width: 100%;
+}
+
+.homeRouter:hover, .exploreRouter:hover, .libraryRouter:hover {
+	background-color: rgb(105, 177, 184);
+	/* width: 100%; */
+	border-radius: 10px;
+}
+
+.homePic, .explorePic, .libraryPic {
+	position: absolute;
+}
+
+/* .homePic:hover, .exploreRouter:hover, .libraryRouter:hover{
+	    /* z-index: 1; Place it behind the main content of the element 
+} */
+
+
